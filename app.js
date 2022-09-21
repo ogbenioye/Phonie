@@ -11,6 +11,8 @@ input.addEventListener("input", receiveValue)
 var imgElem = document.createElement("img")
 document.getElementById("carrier-img").appendChild(imgElem)
 
+/* function to validate input
+to check if input value is valid  */
 
 function validateInput() {
     if (!checkCarrier(String(input.value))) {
@@ -22,6 +24,9 @@ function validateInput() {
     }
 }
 
+/*Function to tell the program 
+when to run other functions
+*/
 
 function receiveValue() {
     
@@ -34,9 +39,9 @@ function receiveValue() {
         imgElem.src = ""
     }
 
-    //display the image for some seconds and remove
 }
 
+/* Function to check network carriers */
 function checkCarrier(num) {
 
     let feedBack = false
@@ -70,14 +75,4 @@ function checkCarrier(num) {
     }
 
     return feedBack
-
-    
-
-    // if (input.slice(0,4) != networkCarrier.airtel || networkCarrier.mtn || networkCarrier.glo || networkCarrier.nineMobile) {
-    //     document.getElementById("errorMsg").innerText ="*not a valid NIGERIAN number*"
-    // }
-    
-    // if (input.slice(0,4) != networkCarrier.airtel || networkCarrier.mtn || networkCarrier.glo || networkCarrier.nineMobile){
-    //     document.getElementById("errorMsg").innerText =" yes "
-    // }
 }
