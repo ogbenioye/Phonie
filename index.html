@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="home.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p class="logo-txt">
+                ph0nIE
+            </p>
+        </div>
+        <nav class="left_nav_wrapper">
+            <ul class="header_nav_left">
+                <li class="left-nav-li">
+                    <a href="" class="header-text">About</a>
+                </li>
+                <li class="left-nav-li">        
+                    <a href="" class="header-text">Products</a>
+                </li>
+                <li class="left-nav-li">
+                    <a href="" class="header-text">Company</a>
+                </li>
+                <li class="left-nav-li">
+                    <a href="" class="header-text">Contributors</a>
+                </li class="left-nav-li">
+                <li class="left-nav-li">
+                    <a href="" class="header-text">API</a>
+                </li class="left-nav-li">
+            </ul>
+        </nav>
+        <nav class="right_nav_wrapper">
+            <ul class="header_nav_right">
+                <li class="login_cta">
+                    <a href="" target="" class="header-text">Login</a>
+                </li>
+                <li class="signup_cta">
+                    <a href="" target="" class="page_btn">Signup</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="info_wrapper">
+            <div class="app_info">
+                <h2 class="info_heading">Do more with your phone <span class="text-color">
+                    number
+                </span></h2>
+                <p class="info_sub-heading">Get an e-card for your business, send bulk sms, buy airtime or keep track of web profiles registered/created with your phone number.</p>
+            </div>
+            <div class="info_cta">
+                <a class="page_bt" id="app_get_started_btn" href="">Get Started</a>
+            </div>
+            <div class="info_img">
+                <img src="./images/My project.jpg" alt="home img">
+            </div>
+        </section>
+        <section class="products-wrapper">
+            <div class="section_heading">
+                <h3 class="products-heading" >Tap into the pontentials of your sim card with 
+                    <span class="text-color">our tools.</span>
+                </h3>
+            </div>
+            <div class="rect">
+                <p class="rect_sub-heading">Check network carrier</p>
+                <select name="dial_code" id="dial_code">
+                    <option value="ngn">+234</option>
+                </select>
+                <input type="tel" placeholder="Enter a phone number" class="input-box" id="num_input" maxlength="11">
+                <span id="carrier-img"></span>
+                <p id="errorMsg" style="color:red;  font-family: 'Roboto', sans-serif;"></p>
+            </div>
+            <section class="product_overview_wrapper">
+                <h4 class="overview_heading">Product Overview</h4>
+                <div class="product_overview1">
+                    <div onclick="" class="products" id="prod1-card">
+                        <img src="/images/card.png" alt="e-card" class="product-icon" id="e-card">
+                        <div class="product-details">
+                            <h5 class="text_heading">Business e-Card</h5>
+                            <p class="text_sub-heading">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi rerum odit fugit officiis nisi enim repellat
+                            </p>
+                        </div>
+                    </div>
+                    <div onclick="" class="products" id="prod2-sms">
+                        <img src="./images/sms.png" alt="bulk-sms" class="product-icon" id="bulk-sms">
+                        <div class="product-details">
+                            <h5 class="text_heading">Bulk SMS</h5>
+                            <p class="text_sub-heading">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi rerum odit fugit officiis nisi enim repellat 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_overview2">
+                    <div onclick="" class="products" id="prod3-airtime">
+                        <img src="./images/airtime.png" alt="airtime" class="product-icon" id="airtime">
+                        <div class="product-details">
+                            <h5 class="text_heading">Buy Airtime</h5>
+                            <p class="text_sub-heading">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi rerum odit fugit officiis nisi enim repellat 
+                            </p>
+                        </div>
+                    </div>
+                    <div onclick="" class="products" id="prod4-profile">
+                        <img src="./images/profile.png" alt="profile" class="product-icon" id="profile">
+                        <div class="product-details">
+                            <h5 class="text_heading">Profile Tracking</h5>
+                            <p class="text_sub-heading">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi rerum odit fugit officiis nisi enim repellat 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+        </section>
+    </main>
+    <footer>
+        <div class="ft-top">
+            <div class="ft-logo-wrapper">
+                <h3 class="ft-logo">ph0nIE</h3>
+                <p class="ft-deets">Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="ft_about">
+                <h4 class="ft-section-title">About 249 APP</h4>
+                <nav class="ft-nav" id="ft1_about_nav">
+                    <p class="ft-link-wrapper">
+                        <a href="" target="" class="ft-nav_link">How it works</a>
+                    </p>
+                    <p class="ft-link-wrapper">
+                        <a href="" target="" class="ft-nav_link">Birth of Idea</a>
+                    </p>
+                    <p class="ft-link-wrapper">
+                        <a href="" target="" class="ft-nav_link">FAQ</a>
+                    </p>
+                    <p class="ft-link-wrapper">
+                        <a href="" target="" class="ft-nav_link">Contributors</a>
+                    </p>
+                </nav>
+            </div>
+            <div class="ft_products">
+                <h4 class="ft-section-title" target="">Products</h4>
+                <nav class="ft-nav" class="product_nav">
+                    <p class="ft-link-wrapper">
+                        <a href="" target="" class="ft-nav_link">E-card</a>   
+                    </p>
+                    <p class="ft-link-wrapper">
+                        <a href="" target="" class="ft-nav_link">Bulk SMS</a>
+                    </p>
+                    <p class="ft-link-wrapper">
+                        <a href="" target="" class="ft-nav_link">Buy airtime(bulk)</a>
+                    </p> 
+                    <p class="ft-link-wrapper">
+                        <a href="" target="" class="ft-nav_link">Profile Tracking</a>
+                    </p>                       
+                </nav>
+            </div>
+            <div class="ft_contact">
+                <h4 class="ft-section-title" target="">Contact Us</h4>
+                <nav class="ft-nav" id="contact_nav">
+                    <p class="ft-link-wrapper">
+                        <a href="mailto:oluwapelumioyenuga@gmail.com" class="ft-nav_link">oluwapelumioyenuga@gmail.com</a>
+                    </p>
+                    <p class="ft-link-wrapper">
+                        <a href="tel:+2348137182043" class="ft-nav_link">+234 813 718 2043</a>
+                    </p>
+                    <p class="ft-link-wrapper">
+                        <a href="https://twitter.com/ogbenioye" target="_blank" class="ft-nav_link">Twitter</a>
+                    </p>
+                    <p class="address_txt">123 street, State state, Country</p>
+                </nav>
+            </div>
+        </div>
+        <div class="bottom-footer-wrapper">
+            <div class="bottom-footer">
+                <div class="copyright-wrapper">
+                    <p class="copyright-txt">
+                        © Copyright ph0nIE
+                    </p>
+                </div>
+                <div class="more-nav">
+                    <p class="link-wrapper">
+                        <a class="more-nav-link" href="">PRIVACY POLICY</a>
+                        <a class="more-nav-link" href="">TERMS OF USE</a>
+                    </p>
+                </div>
+            </div>
+            <p style="font-size:14px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.  jbfuf jfiwsfbiw fniwfo;ijwof </p>
+        </div>
+    </footer>
+</body>
+</html>
